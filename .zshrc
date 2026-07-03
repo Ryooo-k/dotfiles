@@ -27,3 +27,9 @@ alias pre='npx prettier --check'
 alias r='bin/rails routes'
 alias ta='PARALLEL_WORKERS=1 rails test:all'
 alias tww='bin/rails tailwindcss:watch'
+
+export PATH="$HOME/.local/bin:$PATH"
+
+# fzf: キーバインド & 補完を有効化
+source <(fzf --zsh)
+
