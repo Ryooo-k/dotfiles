@@ -9,4 +9,6 @@ ln -sfn "$DOTFILES/.vim" "$HOME/.vim"
 ln -sfn "$DOTFILES/.zshrc" "$HOME/.zshrc"
 ln -sfn "$DOTFILES/.zprofile" "$HOME/.zprofile"
 
+bash "$DOTFILES/install-claude.sh"
+
 echo "Dotfiles installed."
